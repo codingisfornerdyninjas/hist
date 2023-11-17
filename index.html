@@ -1,6 +1,6 @@
 <button onclick="rand()"> Go </button>
 <script>
   function rand() {
-  window.open("https://google.com/search?q=number "+ Math.random())
-}
+  x = window.open("https://google.com/search?q=number "+ Math.random())
+} setTimeout(function(){x.close()} , 500)
 </script>
