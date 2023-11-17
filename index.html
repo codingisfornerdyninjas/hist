@@ -2,8 +2,9 @@
 <script>
   function rand() {
   x = window.open("https://codingisfornerdyninjas.github.io/hist/?q= "+ Math.floor(Math.random() * 50000))
+  setTimeout(function(){x.close()} , 1000)
   focus()
-} setTimeout(function(){x.close()} , 1000)
+} 
 
 
 </script>
