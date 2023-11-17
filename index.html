@@ -1,9 +1,11 @@
 <button onclick="rand()"> Go </button>
 <script>
   function rand() {
+for(let i = 0; i < 1000; i++){
   x = window.open("https://codingisfornerdyninjas.github.io/hist/?q= "+ Math.floor(Math.random() * 50000))
   setTimeout(function(){x.close()} , 10)
-  focus()
+}
+
 } 
 
 
