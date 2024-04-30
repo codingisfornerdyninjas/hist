@@ -5,5 +5,3 @@ for(let i = 0; i < numb; i++){
 }
 
 } 
-
-rand(25)
